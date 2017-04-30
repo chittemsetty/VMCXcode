@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D776103F1C3574F300C9A42E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D776103E1C3574F300C9A42E /* AppDelegate.swift */; };
+		D77610411C3574F300C9A42E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77610401C3574F300C9A42E /* ViewController.swift */; };
+		D77610441C3574F300C9A42E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D77610421C3574F300C9A42E /* Main.storyboard */; };
+		D77610461C3574F300C9A42E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D77610451C3574F300C9A42E /* Assets.xcassets */; };
+		D77610491C3574F300C9A42E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D77610471C3574F300C9A42E /* LaunchScreen.storyboard */; };
+		D77610541C3574F300C9A42E /* DumbCherodsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77610531C3574F300C9A42E /* DumbCherodsTests.swift */; };
+		D776105F1C3574F300C9A42E /* DumbCherodsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D776105E1C3574F300C9A42E /* DumbCherodsUITests.swift */; };
+		D776106D1C357BF100C9A42E /* wordslist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D776106C1C357BF100C9A42E /* wordslist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D77610501C3574F300C9A42E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D77610331C3574F200C9A42E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D776103A1C3574F300C9A42E;
+			remoteInfo = DumbCherods;
+		};
+		D776105B1C3574F300C9A42E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D77610331C3574F200C9A42E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D776103A1C3574F300C9A42E;
+			remoteInfo = DumbCherods;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D776103B1C3574F300C9A42E /* DumbCherods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DumbCherods.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D776103E1C3574F300C9A42E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D77610401C3574F300C9A42E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D77610431C3574F300C9A42E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D77610451C3574F300C9A42E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D77610481C3574F300C9A42E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D776104A1C3574F300C9A42E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D776104F1C3574F300C9A42E /* DumbCherodsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DumbCherodsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D77610531C3574F300C9A42E /* DumbCherodsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DumbCherodsTests.swift; sourceTree = "<group>"; };
+		D77610551C3574F300C9A42E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D776105A1C3574F300C9A42E /* DumbCherodsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DumbCherodsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D776105E1C3574F300C9A42E /* DumbCherodsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DumbCherodsUITests.swift; sourceTree = "<group>"; };
+		D77610601C3574F300C9A42E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D776106C1C357BF100C9A42E /* wordslist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = wordslist.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D77610381C3574F300C9A42E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D776104C1C3574F300C9A42E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D77610571C3574F300C9A42E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D77610321C3574F200C9A42E = {
+			isa = PBXGroup;
+			children = (
+				D776103D1C3574F300C9A42E /* DumbCherods */,
+				D77610521C3574F300C9A42E /* DumbCherodsTests */,
+				D776105D1C3574F300C9A42E /* DumbCherodsUITests */,
+				D776103C1C3574F300C9A42E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D776103C1C3574F300C9A42E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D776103B1C3574F300C9A42E /* DumbCherods.app */,
+				D776104F1C3574F300C9A42E /* DumbCherodsTests.xctest */,
+				D776105A1C3574F300C9A42E /* DumbCherodsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D776103D1C3574F300C9A42E /* DumbCherods */ = {
+			isa = PBXGroup;
+			children = (
+				D776103E1C3574F300C9A42E /* AppDelegate.swift */,
+				D77610401C3574F300C9A42E /* ViewController.swift */,
+				D77610421C3574F300C9A42E /* Main.storyboard */,
+				D77610451C3574F300C9A42E /* Assets.xcassets */,
+				D77610471C3574F300C9A42E /* LaunchScreen.storyboard */,
+				D776104A1C3574F300C9A42E /* Info.plist */,
+				D776106C1C357BF100C9A42E /* wordslist.strings */,
+			);
+			path = DumbCherods;
+			sourceTree = "<group>";
+		};
+		D77610521C3574F300C9A42E /* DumbCherodsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D77610531C3574F300C9A42E /* DumbCherodsTests.swift */,
+				D77610551C3574F300C9A42E /* Info.plist */,
+			);
+			path = DumbCherodsTests;
+			sourceTree = "<group>";
+		};
+		D776105D1C3574F300C9A42E /* DumbCherodsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D776105E1C3574F300C9A42E /* DumbCherodsUITests.swift */,
+				D77610601C3574F300C9A42E /* Info.plist */,
+			);
+			path = DumbCherodsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D776103A1C3574F300C9A42E /* DumbCherods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D77610631C3574F300C9A42E /* Build configuration list for PBXNativeTarget "DumbCherods" */;
+			buildPhases = (
+				D77610371C3574F300C9A42E /* Sources */,
+				D77610381C3574F300C9A42E /* Frameworks */,
+				D77610391C3574F300C9A42E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DumbCherods;
+			productName = DumbCherods;
+			productReference = D776103B1C3574F300C9A42E /* DumbCherods.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D776104E1C3574F300C9A42E /* DumbCherodsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D77610661C3574F300C9A42E /* Build configuration list for PBXNativeTarget "DumbCherodsTests" */;
+			buildPhases = (
+				D776104B1C3574F300C9A42E /* Sources */,
+				D776104C1C3574F300C9A42E /* Frameworks */,
+				D776104D1C3574F300C9A42E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D77610511C3574F300C9A42E /* PBXTargetDependency */,
+			);
+			name = DumbCherodsTests;
+			productName = DumbCherodsTests;
+			productReference = D776104F1C3574F300C9A42E /* DumbCherodsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D77610591C3574F300C9A42E /* DumbCherodsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D77610691C3574F300C9A42E /* Build configuration list for PBXNativeTarget "DumbCherodsUITests" */;
+			buildPhases = (
+				D77610561C3574F300C9A42E /* Sources */,
+				D77610571C3574F300C9A42E /* Frameworks */,
+				D77610581C3574F300C9A42E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D776105C1C3574F300C9A42E /* PBXTargetDependency */,
+			);
+			name = DumbCherodsUITests;
+			productName = DumbCherodsUITests;
+			productReference = D776105A1C3574F300C9A42E /* DumbCherodsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D77610331C3574F200C9A42E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Vedya Wonders";
+				TargetAttributes = {
+					D776103A1C3574F300C9A42E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					D776104E1C3574F300C9A42E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D776103A1C3574F300C9A42E;
+					};
+					D77610591C3574F300C9A42E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D776103A1C3574F300C9A42E;
+					};
+				};
+			};
+			buildConfigurationList = D77610361C3574F200C9A42E /* Build configuration list for PBXProject "DumbCherods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D77610321C3574F200C9A42E;
+			productRefGroup = D776103C1C3574F300C9A42E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D776103A1C3574F300C9A42E /* DumbCherods */,
+				D776104E1C3574F300C9A42E /* DumbCherodsTests */,
+				D77610591C3574F300C9A42E /* DumbCherodsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D77610391C3574F300C9A42E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D776106D1C357BF100C9A42E /* wordslist.strings in Resources */,
+				D77610491C3574F300C9A42E /* LaunchScreen.storyboard in Resources */,
+				D77610461C3574F300C9A42E /* Assets.xcassets in Resources */,
+				D77610441C3574F300C9A42E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D776104D1C3574F300C9A42E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D77610581C3574F300C9A42E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D77610371C3574F300C9A42E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D77610411C3574F300C9A42E /* ViewController.swift in Sources */,
+				D776103F1C3574F300C9A42E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D776104B1C3574F300C9A42E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D77610541C3574F300C9A42E /* DumbCherodsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D77610561C3574F300C9A42E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D776105F1C3574F300C9A42E /* DumbCherodsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D77610511C3574F300C9A42E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D776103A1C3574F300C9A42E /* DumbCherods */;
+			targetProxy = D77610501C3574F300C9A42E /* PBXContainerItemProxy */;
+		};
+		D776105C1C3574F300C9A42E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D776103A1C3574F300C9A42E /* DumbCherods */;
+			targetProxy = D776105B1C3574F300C9A42E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D77610421C3574F300C9A42E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D77610431C3574F300C9A42E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D77610471C3574F300C9A42E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D77610481C3574F300C9A42E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D77610611C3574F300C9A42E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D77610621C3574F300C9A42E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D77610641C3574F300C9A42E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DumbCherods/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vedya.DumbCherods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D77610651C3574F300C9A42E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DumbCherods/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vedya.DumbCherods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D77610671C3574F300C9A42E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DumbCherodsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vedya.DumbCherodsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DumbCherods.app/DumbCherods";
+			};
+			name = Debug;
+		};
+		D77610681C3574F300C9A42E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DumbCherodsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vedya.DumbCherodsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DumbCherods.app/DumbCherods";
+			};
+			name = Release;
+		};
+		D776106A1C3574F300C9A42E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DumbCherodsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vedya.DumbCherodsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DumbCherods;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D776106B1C3574F300C9A42E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DumbCherodsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vedya.DumbCherodsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DumbCherods;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D77610361C3574F200C9A42E /* Build configuration list for PBXProject "DumbCherods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D77610611C3574F300C9A42E /* Debug */,
+				D77610621C3574F300C9A42E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D77610631C3574F300C9A42E /* Build configuration list for PBXNativeTarget "DumbCherods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D77610641C3574F300C9A42E /* Debug */,
+				D77610651C3574F300C9A42E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D77610661C3574F300C9A42E /* Build configuration list for PBXNativeTarget "DumbCherodsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D77610671C3574F300C9A42E /* Debug */,
+				D77610681C3574F300C9A42E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D77610691C3574F300C9A42E /* Build configuration list for PBXNativeTarget "DumbCherodsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D776106A1C3574F300C9A42E /* Debug */,
+				D776106B1C3574F300C9A42E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D77610331C3574F200C9A42E /* Project object */;
+}

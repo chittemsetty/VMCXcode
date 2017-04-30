@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D70EA3931C1471350096A768 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70EA3921C1471350096A768 /* AppDelegate.swift */; };
+		D70EA3951C1471350096A768 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70EA3941C1471350096A768 /* ViewController.swift */; };
+		D70EA3981C1471350096A768 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D70EA3961C1471350096A768 /* Main.storyboard */; };
+		D70EA39A1C1471350096A768 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D70EA3991C1471350096A768 /* Assets.xcassets */; };
+		D70EA39D1C1471350096A768 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D70EA39B1C1471350096A768 /* LaunchScreen.storyboard */; };
+		D70EA3A81C1471350096A768 /* PikerViewTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70EA3A71C1471350096A768 /* PikerViewTestTests.swift */; };
+		D70EA3B31C1471360096A768 /* PikerViewTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70EA3B21C1471360096A768 /* PikerViewTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D70EA3A41C1471350096A768 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D70EA3871C1471350096A768 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D70EA38E1C1471350096A768;
+			remoteInfo = PikerViewTest;
+		};
+		D70EA3AF1C1471350096A768 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D70EA3871C1471350096A768 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D70EA38E1C1471350096A768;
+			remoteInfo = PikerViewTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D70EA38F1C1471350096A768 /* PikerViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PikerViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D70EA3921C1471350096A768 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D70EA3941C1471350096A768 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D70EA3971C1471350096A768 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D70EA3991C1471350096A768 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D70EA39C1C1471350096A768 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D70EA39E1C1471350096A768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D70EA3A31C1471350096A768 /* PikerViewTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PikerViewTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D70EA3A71C1471350096A768 /* PikerViewTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PikerViewTestTests.swift; sourceTree = "<group>"; };
+		D70EA3A91C1471350096A768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D70EA3AE1C1471350096A768 /* PikerViewTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PikerViewTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D70EA3B21C1471360096A768 /* PikerViewTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PikerViewTestUITests.swift; sourceTree = "<group>"; };
+		D70EA3B41C1471360096A768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D70EA38C1C1471350096A768 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70EA3A01C1471350096A768 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70EA3AB1C1471350096A768 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D70EA3861C1471350096A768 = {
+			isa = PBXGroup;
+			children = (
+				D70EA3911C1471350096A768 /* PikerViewTest */,
+				D70EA3A61C1471350096A768 /* PikerViewTestTests */,
+				D70EA3B11C1471360096A768 /* PikerViewTestUITests */,
+				D70EA3901C1471350096A768 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D70EA3901C1471350096A768 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D70EA38F1C1471350096A768 /* PikerViewTest.app */,
+				D70EA3A31C1471350096A768 /* PikerViewTestTests.xctest */,
+				D70EA3AE1C1471350096A768 /* PikerViewTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D70EA3911C1471350096A768 /* PikerViewTest */ = {
+			isa = PBXGroup;
+			children = (
+				D70EA3921C1471350096A768 /* AppDelegate.swift */,
+				D70EA3941C1471350096A768 /* ViewController.swift */,
+				D70EA3961C1471350096A768 /* Main.storyboard */,
+				D70EA3991C1471350096A768 /* Assets.xcassets */,
+				D70EA39B1C1471350096A768 /* LaunchScreen.storyboard */,
+				D70EA39E1C1471350096A768 /* Info.plist */,
+			);
+			path = PikerViewTest;
+			sourceTree = "<group>";
+		};
+		D70EA3A61C1471350096A768 /* PikerViewTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				D70EA3A71C1471350096A768 /* PikerViewTestTests.swift */,
+				D70EA3A91C1471350096A768 /* Info.plist */,
+			);
+			path = PikerViewTestTests;
+			sourceTree = "<group>";
+		};
+		D70EA3B11C1471360096A768 /* PikerViewTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D70EA3B21C1471360096A768 /* PikerViewTestUITests.swift */,
+				D70EA3B41C1471360096A768 /* Info.plist */,
+			);
+			path = PikerViewTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D70EA38E1C1471350096A768 /* PikerViewTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D70EA3B71C1471360096A768 /* Build configuration list for PBXNativeTarget "PikerViewTest" */;
+			buildPhases = (
+				D70EA38B1C1471350096A768 /* Sources */,
+				D70EA38C1C1471350096A768 /* Frameworks */,
+				D70EA38D1C1471350096A768 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PikerViewTest;
+			productName = PikerViewTest;
+			productReference = D70EA38F1C1471350096A768 /* PikerViewTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D70EA3A21C1471350096A768 /* PikerViewTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D70EA3BA1C1471360096A768 /* Build configuration list for PBXNativeTarget "PikerViewTestTests" */;
+			buildPhases = (
+				D70EA39F1C1471350096A768 /* Sources */,
+				D70EA3A01C1471350096A768 /* Frameworks */,
+				D70EA3A11C1471350096A768 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D70EA3A51C1471350096A768 /* PBXTargetDependency */,
+			);
+			name = PikerViewTestTests;
+			productName = PikerViewTestTests;
+			productReference = D70EA3A31C1471350096A768 /* PikerViewTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D70EA3AD1C1471350096A768 /* PikerViewTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D70EA3BD1C1471360096A768 /* Build configuration list for PBXNativeTarget "PikerViewTestUITests" */;
+			buildPhases = (
+				D70EA3AA1C1471350096A768 /* Sources */,
+				D70EA3AB1C1471350096A768 /* Frameworks */,
+				D70EA3AC1C1471350096A768 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D70EA3B01C1471350096A768 /* PBXTargetDependency */,
+			);
+			name = PikerViewTestUITests;
+			productName = PikerViewTestUITests;
+			productReference = D70EA3AE1C1471350096A768 /* PikerViewTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D70EA3871C1471350096A768 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Vedya Wonders";
+				TargetAttributes = {
+					D70EA38E1C1471350096A768 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					D70EA3A21C1471350096A768 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = D70EA38E1C1471350096A768;
+					};
+					D70EA3AD1C1471350096A768 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = D70EA38E1C1471350096A768;
+					};
+				};
+			};
+			buildConfigurationList = D70EA38A1C1471350096A768 /* Build configuration list for PBXProject "PikerViewTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D70EA3861C1471350096A768;
+			productRefGroup = D70EA3901C1471350096A768 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D70EA38E1C1471350096A768 /* PikerViewTest */,
+				D70EA3A21C1471350096A768 /* PikerViewTestTests */,
+				D70EA3AD1C1471350096A768 /* PikerViewTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D70EA38D1C1471350096A768 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D70EA39D1C1471350096A768 /* LaunchScreen.storyboard in Resources */,
+				D70EA39A1C1471350096A768 /* Assets.xcassets in Resources */,
+				D70EA3981C1471350096A768 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70EA3A11C1471350096A768 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70EA3AC1C1471350096A768 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D70EA38B1C1471350096A768 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D70EA3951C1471350096A768 /* ViewController.swift in Sources */,
+				D70EA3931C1471350096A768 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70EA39F1C1471350096A768 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D70EA3A81C1471350096A768 /* PikerViewTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70EA3AA1C1471350096A768 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D70EA3B31C1471360096A768 /* PikerViewTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D70EA3A51C1471350096A768 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D70EA38E1C1471350096A768 /* PikerViewTest */;
+			targetProxy = D70EA3A41C1471350096A768 /* PBXContainerItemProxy */;
+		};
+		D70EA3B01C1471350096A768 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D70EA38E1C1471350096A768 /* PikerViewTest */;
+			targetProxy = D70EA3AF1C1471350096A768 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D70EA3961C1471350096A768 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D70EA3971C1471350096A768 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D70EA39B1C1471350096A768 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D70EA39C1C1471350096A768 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D70EA3B51C1471360096A768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D70EA3B61C1471360096A768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D70EA3B81C1471360096A768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PikerViewTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vedya.PikerViewTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D70EA3B91C1471360096A768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PikerViewTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vedya.PikerViewTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D70EA3BB1C1471360096A768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PikerViewTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vedya.PikerViewTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PikerViewTest.app/PikerViewTest";
+			};
+			name = Debug;
+		};
+		D70EA3BC1C1471360096A768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PikerViewTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vedya.PikerViewTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PikerViewTest.app/PikerViewTest";
+			};
+			name = Release;
+		};
+		D70EA3BE1C1471360096A768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PikerViewTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vedya.PikerViewTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PikerViewTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D70EA3BF1C1471360096A768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PikerViewTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vedya.PikerViewTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PikerViewTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D70EA38A1C1471350096A768 /* Build configuration list for PBXProject "PikerViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D70EA3B51C1471360096A768 /* Debug */,
+				D70EA3B61C1471360096A768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D70EA3B71C1471360096A768 /* Build configuration list for PBXNativeTarget "PikerViewTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D70EA3B81C1471360096A768 /* Debug */,
+				D70EA3B91C1471360096A768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D70EA3BA1C1471360096A768 /* Build configuration list for PBXNativeTarget "PikerViewTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D70EA3BB1C1471360096A768 /* Debug */,
+				D70EA3BC1C1471360096A768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D70EA3BD1C1471360096A768 /* Build configuration list for PBXNativeTarget "PikerViewTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D70EA3BE1C1471360096A768 /* Debug */,
+				D70EA3BF1C1471360096A768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D70EA3871C1471350096A768 /* Project object */;
+}
